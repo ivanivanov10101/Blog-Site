@@ -49,7 +49,7 @@ const SubmitForm = () => {
   }, []);
 
   return (
-    <form onSubmit={sendPost} action={POST_URL} method="POST" className="bg-white col-span-5 p-6">
+    <form onSubmit={sendPost} action={POST_URL} method="POST" className="bg-white col-span-5 p-6 shadow-[0_8px_24px_rgba(149,157,165,0.2)]">
       <h2 className="font-bold text-2xl">Plaats een blog bericht</h2>
       <label className="mt-6 mb-2 font-medium block text-xs" htmlFor="title">Berichtnaam</label>
       <input className="bg-social-gray w-full px-3 py-3 text-xs placeholder:italic" type="text" id="title" placeholder="Geen titel" onChange={(e) => setTitle(e.target.value)} required/>

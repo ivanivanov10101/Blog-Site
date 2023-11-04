@@ -40,7 +40,7 @@ export default function Home() {
     <Layout button="Home" >
       <main className="grid grid-cols-12 gap-x-8 max-w-6xl w-11/12 m-auto">
         <SubmitForm/>
-        <section className='flex flex-col justify-between bg-white col-span-7 p-6'>
+        <section className='flex flex-col justify-between bg-white col-span-7 p-6 shadow-[0_8px_24px_rgba(149,157,165,0.2)]'>
           <div className='grid grid-cols-2 gap-6'>
             {received && receivedBlogs.map((blog, key) => <BlogPost blogPost={blog} key={key}/>)}
           </div>
