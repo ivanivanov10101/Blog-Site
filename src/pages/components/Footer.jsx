@@ -4,7 +4,6 @@ const Footer = () => {
       <p>&#169; Copyright NoNameCompany - 2023</p>
     </footer>
   );
-}
-
+};
 
 export default Footer;

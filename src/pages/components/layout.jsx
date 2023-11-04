@@ -5,7 +5,7 @@ const Layout = ({ children, button, title }) => (
   <div className="min-h-screen relative pb-32">
     <Header button={button} title={title} />
     {children}
-    <Footer/>
+    <Footer />
   </div>
 );
 
